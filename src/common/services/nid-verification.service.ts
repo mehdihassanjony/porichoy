@@ -38,7 +38,7 @@ const demo: NIDVerificationResponse = {
   presentAddress: 'Loop freight ltd.',
   nationalId: '1234567890',
   oldNationalId: '12345678901112121',
-  photo: 'https://dev-cdn.loopfreight.io/public/loop_demo.png',
+  photo: 'https://st2.depositphotos.com/1186248/5903/i/450/depositphotos_59038425-stock-photo-demo.jpg',
 };
 @Injectable()
 export class NidVerificationService {
