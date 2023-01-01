@@ -39,7 +39,7 @@ export class DemoService{
     constructor(
         private nidService: NidVerificationService,
     ){}
-}
+
 const person = {nid: "1456782945", dob: "1999-11-29", name: "Asik Ahmed"};
 
 
@@ -52,4 +52,5 @@ if (!nidUserResponse)
         );
 
 (async () => console.log((await this.nidService.verify(person))? 'Valid NID':'Invalid NID'))();
+}
 ```
