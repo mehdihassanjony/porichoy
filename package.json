@@ -1,0 +1,10 @@
+{
+  "dependencies": {
+    "@nestjs/axios": "github:nestjs/axios",
+    "@nestjs/config": "github:nestjs/config",
+    "axios": "^1.2.2",
+    "common": "^0.2.5",
+    "config": "^3.3.8",
+    "moment": "^2.29.4"
+  }
+}
